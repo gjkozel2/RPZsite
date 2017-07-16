@@ -1,0 +1,55 @@
+body {
+  /*background-image: url("http://www.mebatesisat.com.tr/wp-content/uploads/2015/10/background.jpg");
+  */
+  margin:0px;
+  padding:0px;
+}
+#Logo {
+  height:100px;
+  float:left;
+}
+#title {
+  font-size:100px;
+  text-align:center;
+}
+#nav {
+
+
+}
+#nav ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: black;
+  border-radius: 10px;
+}
+#nav  li {
+display:inline;
+float:left;
+border-right:1px solid white;
+}
+#nav li a {
+  font-size:50px;
+  display:block;
+  padding:14px 16px;
+  text-decoration: none;
+  color:white;
+}
+#nav li a:hover {
+  background-color: gray;
+}
+#contactinfo {
+  list-style-type: none;
+  font-size: 50px;
+
+}
+#email,#phone,#address,#pobox{
+  height:50px;
+
+  text-align: center;
+}
+
+.active {
+  background-color: gray;
+}
